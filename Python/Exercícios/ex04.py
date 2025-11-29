@@ -21,3 +21,19 @@ print(f"Contém apenas espaço: {valorA.isspace()}")
 
 # Resultado OK - Cansei por hoje e ta ótimo de dano psicológico
 # 28/11/2025 - 16:31
+
+# Resolução da aula - Exercício 04
+
+print("--- Resolução da aula ---")
+a = input("Digite algo: ")
+print("O tipo primitivo desse valor é: {}".format(type(a))) # Esse eu não fiz kkk
+print("Só tem espaço? {}".format(a.isspace())) # OK
+print("É um número? {}".format(a.isalpha())) # OK
+print("É alfanúmero? {}".format(a.isalnum())) # OK
+print("Está em maiúsculas? {}".format(a.isupper())) # OK
+print("Está em minúsculas? {}".format(a.islower())) # OK
+print("Está capitalizada? {}".format(a.istitle())) # Não sabia o que era então não tinha feito
+
+# Anotação: não sei o que é o istitle ou capitalizada, porém...
+# parece estar verificando se a primeira letra está em maiúscula e o resto minúsculo
+# semelhante a um título.
